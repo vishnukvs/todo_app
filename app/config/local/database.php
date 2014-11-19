@@ -23,7 +23,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'app2',
+			'database'  => 'todolist',
 			'username'  => 'root',
 			'password'  => 'happy',
 			'charset'   => 'utf8',

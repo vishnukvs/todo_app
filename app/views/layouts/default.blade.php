@@ -7,7 +7,7 @@
     <title>Todo list App</title>
 
     <!-- Bootstrap -->
-    <link href="css/styles.css" rel="stylesheet">
+    {{ HTML::style('css/styles.css') }}
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

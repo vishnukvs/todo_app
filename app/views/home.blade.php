@@ -1,5 +1,27 @@
 @extends('layouts.default')
 @section('content')
-<h1>Hello World Welcome to Larvel Php Apps</h1>
-<p> let's build some awesome apps and learn more on <code>Laravel</code> Framework</p>
+<div class="row">
+	<div class="container">
+		<div class="col-xs-6 col-md-12">
+			<h1>Taks To do list App Built using Laravel</h1>
+		</div>
+		<table class="table table-bordered table-striped">
+			<tr>
+				<th>#</th>
+				<th>Task Name</th>
+				<th>Comments</th>
+				<th>Done</th>
+			</tr>
+			@foreach($tasks as $task)
+		<tr>
+		
+		<td>{{ $task->id }} </td>
+		<td>{{ $task->title }}</td>
+		<td>{{ $task->body}}</td>
+		<td>{{ $task->done ? 'Yes' : 'No'}}</td>
+	
+	@endforeach
+	</tr>
+</div>
 @stop
+
