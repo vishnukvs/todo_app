@@ -54,7 +54,7 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
+			'host'      => 'vishnulabs.com',
 			'database'  => 'forge',
 			'username'  => 'forge',
 			'password'  => '',
